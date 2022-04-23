@@ -1,0 +1,12 @@
+.number {
+  margin-bottom: 150px;
+  background-color: #000;
+  &-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 129px 178px 135px;
+  }
+  &-heading {
+  }
+}

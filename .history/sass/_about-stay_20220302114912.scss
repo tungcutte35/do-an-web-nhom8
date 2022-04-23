@@ -1,0 +1,46 @@
+.about-stay {
+  background-color: #f2f2f2;
+  border-radius: 15px;
+  max-width: 1120px;
+  margin: 0 auto;
+  &-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0 150px;
+    margin: 0 71px 0 84px;
+  }
+  &-heading {
+    font-size: 30px;
+    line-height: calc(45 / 30);
+    font-weight: 600;
+    color: #000;
+    padding-top: 39px;
+    margin-bottom: 16px;
+  }
+  &-desc {
+    font-size: 16px;
+    line-height: calc(24 / 16);
+    font-weight: 400;
+    color: #707070;
+    margin-bottom: 54px;
+    max-width: 526px;
+  }
+  &-input {
+    position: relative;
+    input {
+      font-weight: 300;
+      font-size: 13px;
+      line-height: calc(19 / 13);
+      padding: 14px 223px 14px 20px;
+      border-radius: 8px;
+      border: none;
+    }
+  }
+  &-continue {
+    padding: 8px 20px 9px 21px;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+}

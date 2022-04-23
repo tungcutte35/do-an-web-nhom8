@@ -1,0 +1,27 @@
+.wedo {
+  margin-bottom: 150px;
+  img {
+    width: 81px;
+    height: 80px;
+  }
+  &-boxbig {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  &-img1 {
+    background-color: #fff2f2;
+    border-radius: 20px;
+    padding: 25px;
+    padding-right: -300px;
+  }
+  &-box {
+    max-width: 283px;
+  }
+  &-heading {
+    color: #000;
+  }
+  &-desc {
+    color: #797979;
+  }
+}

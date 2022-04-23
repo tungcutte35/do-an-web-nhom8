@@ -1,0 +1,10 @@
+.about-engaged {
+  background-color: #000;
+  &-heading {
+    font-size: 35px;
+    line-height: calc(63 / 35);
+    font-weight: 600;
+    margin: 0 auto;
+    text-align: center;
+  }
+}

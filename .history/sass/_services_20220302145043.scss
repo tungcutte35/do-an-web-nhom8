@@ -1,0 +1,27 @@
+.services {
+  margin-top: 100px;
+  &-container {
+    max-width: 1218px;
+    margin: 0 auto;
+  }
+  &-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &-header {
+    font-size: 32px;
+    line-height: calc(48 / 32);
+    font-weight: 600;
+    color: #000;
+    span {
+      color: #42bdec;
+    }
+  }
+  &-heading {
+    font-size: 22px;
+    line-height: calc(40 / 22);
+    font-weight: 600;
+    color: #000;
+  }
+}

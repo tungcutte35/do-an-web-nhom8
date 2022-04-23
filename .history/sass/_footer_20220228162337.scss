@@ -1,0 +1,47 @@
+.footer {
+  background-color: #000;
+  display: flex;
+  justify-content: space-between;
+  padding: 75px 84px 74px 84px;
+  gap: 0 116px;
+  &-heading {
+    font-size: 22px;
+    line-height: calc(42 / 22);
+    margin-bottom: 11px;
+    font-weight: 500;
+  }
+  &-lorem2 {
+    display: flex;
+    gap: 0 8px;
+    cursor: pointer;
+    max-width: 196px;
+  }
+  &-lorem1 {
+    cursor: pointer;
+    max-width: 143px;
+    text-align: center;
+  }
+  &-desc {
+    padding: 3px 30px;
+    background-color: #464646;
+    border-radius: 3px;
+    margin-top: 10px;
+    &:hover {
+      background-color: red;
+    }
+  }
+  &-desc1 {
+    padding: 3px 100px;
+    background-color: #464646;
+    border-radius: 3px;
+    margin-top: 10px;
+    &:hover {
+      background-color: red;
+    }
+  }
+  &-column {
+    &:nth-child(3) {
+      width: 3400px;
+    }
+  }
+}

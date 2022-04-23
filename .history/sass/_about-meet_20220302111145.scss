@@ -1,0 +1,11 @@
+.about-meet {
+  &-container {
+    max-width: 1180px;
+    margin: 0 auto;
+  }
+  &-boxbig {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}

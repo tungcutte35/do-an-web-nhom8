@@ -1,0 +1,23 @@
+.about-latest {
+  margin-top: 87px;
+  &-heading {
+    max-width: 318px;
+    font-size: 42px;
+    line-height: calc(74 / 42);
+    text-align: center;
+    font-weight: 700;
+    color: #000;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    animation: revolveScale 3s forwards;
+    opacity: 0;
+    transform: translate(-150px, -50px) rotate(-180deg) scale(3);
+    span {
+      color: #41bbea;
+    }
+  }
+  &-desc {
+    font-size: 20px;
+    line-height: 189.5%;
+  }
+}

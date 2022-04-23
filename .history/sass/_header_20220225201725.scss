@@ -1,0 +1,17 @@
+.header {
+  background-color: #070d18;
+  padding-top: 20px;
+  position: relative;
+  &:after {
+    position: absolute;
+    content: " ";
+    border: 0.7px solid rgba(255, 255, 255, 0.29);
+    left: -0.05px;
+    bottom: -70px;
+  }
+  &-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}

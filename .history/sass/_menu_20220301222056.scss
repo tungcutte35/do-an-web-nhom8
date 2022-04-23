@@ -1,0 +1,26 @@
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0 80px;
+  margin-bottom: 23px;
+  &-link {
+    color: inherit;
+    &:after {
+      display: block;
+      content: "";
+      border-bottom: solid 2px $primary-color;
+      transform: scaleX(0);
+      transition: transform 250ms ease-in-out;
+    }
+    &:hover:after {
+      transform: scaleX(1);
+    }
+    &:hover {
+      color: $primary-color;
+    }
+  }
+  &-item {
+    font-size: 16px;
+  }
+}

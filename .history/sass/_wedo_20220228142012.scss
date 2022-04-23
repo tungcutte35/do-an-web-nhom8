@@ -1,0 +1,16 @@
+.wedo {
+  &-boxbig {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  &-box {
+    max-width: 283px;
+  }
+  &-heading {
+    color: #000;
+  }
+  &-desc {
+    color: #797979;
+  }
+}

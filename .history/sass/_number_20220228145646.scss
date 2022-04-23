@@ -1,0 +1,16 @@
+.number {
+  margin-bottom: 150px;
+  background-color: #000;
+  &-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0 160px;
+    padding: 129px 178px 135px;
+  }
+  &-heading {
+    font-size: 65px;
+    line-height: calc(115 / 65);
+    font-weight: 600;
+  }
+}

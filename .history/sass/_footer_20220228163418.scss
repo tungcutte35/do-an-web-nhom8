@@ -1,0 +1,66 @@
+.footer {
+  background-color: #000;
+  display: flex;
+  justify-content: space-between;
+  padding: 75px 20px;
+  gap: 0 116px;
+  &-heading {
+    font-size: 22px;
+    line-height: calc(42 / 22);
+    margin-bottom: 11px;
+    font-weight: 500;
+    max-width: 336px;
+    &:nth-child(2) {
+      margin-bottom: 25px;
+    }
+  }
+  &-lorem2 {
+    display: flex;
+    gap: 0 8px;
+    cursor: pointer;
+    max-width: 196px;
+  }
+  &-lorem1 {
+    cursor: pointer;
+    max-width: 143px;
+    text-align: center;
+  }
+  &-desc {
+    padding: 3px 30px;
+    background-color: #464646;
+    border-radius: 3px;
+    margin-top: 10px;
+    &:hover {
+      background-color: red;
+    }
+  }
+  &-desc1 {
+    padding: 3px 100px;
+    background-color: #464646;
+    border-radius: 3px;
+    margin-top: 10px;
+    &:hover {
+      background-color: red;
+    }
+  }
+  &-input {
+    max-width: 285px;
+    display: flex;
+    font-size: 22px;
+    position: relative;
+    box-shadow: none;
+    border: none;
+    input {
+      padding: 10px 100px 10px 5px;
+      border-radius: 4px;
+    }
+  }
+  &-icon {
+    position: absolute;
+    right: 0px;
+    top: 0%;
+    padding: 10px 15px;
+    background-color: #6e00fa;
+    border-radius: 4px;
+  }
+}

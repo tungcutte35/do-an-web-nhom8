@@ -1,0 +1,35 @@
+.about-latest {
+  margin-top: 87px;
+  &-heading {
+    max-width: 318px;
+    font-size: 42px;
+    line-height: calc(74 / 42);
+    text-align: center;
+    font-weight: 700;
+    color: #000;
+    margin: 0 auto;
+    margin-bottom: 41px;
+    animation: revolveScale 3s forwards;
+    opacity: 0;
+    transform: translate(-150px, -50px) rotate(-180deg) scale(3);
+    span {
+      color: #41bbea;
+    }
+  }
+  &-desc {
+    max-width: 432px;
+    font-size: 20px;
+    line-height: calc(38 / 20);
+    text-align: center;
+    margin: 0 auto;
+    animation: revolveScale 5s forwards;
+    opacity: 0;
+    margin-bottom: 50px;
+    transform: translate(-150px, -50px) rotate(-180deg) scale(3);
+    line-height: 189.5%;
+    color: #777777;
+  }
+  &-input input {
+    width: 400px;
+  }
+}

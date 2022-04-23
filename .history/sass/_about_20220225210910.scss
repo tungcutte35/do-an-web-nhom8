@@ -1,0 +1,40 @@
+.about {
+  &-container {
+    margin: 0 auto;
+    text-align: center;
+  }
+  &-heading {
+    color: #000000;
+    font-size: 30px;
+    line-height: calc(48 / 27);
+    margin-bottom: 35px;
+    span {
+      color: #42bdec;
+    }
+  }
+  &-desc {
+    margin: 0 auto;
+    text-align: center;
+    font-size: 15px;
+    line-height: calc(25 / 15);
+    max-width: 920px;
+    color: #505050;
+    margin-bottom: 75px;
+  }
+  &-box {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &-box-img {
+    margin: 0 auto;
+    text-align: center;
+  }
+  &-box-heading {
+    color: #000000;
+  }
+  &-box-desc {
+    color: #808080;
+  }
+}

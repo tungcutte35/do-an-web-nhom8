@@ -1,0 +1,29 @@
+.latest {
+  margin-bottom: 150px;
+  &-heading {
+    margin: 0 auto;
+    text-align: center;
+    color: #000;
+    font-size: 35px;
+    line-height: calc(62 / 25);
+    font-weight: 600;
+    margin-bottom: 18px;
+  }
+  &-desc {
+    margin: 0 auto;
+    text-align: center;
+    color: #505050;
+    font-size: 15px;
+    line-height: calc(26 / 15);
+    font-weight: 400;
+    max-width: 559px;
+    margin-bottom: 14px;
+  }
+  &-view {
+    font-size: 20px;
+    line-height: calc(35 / 20);
+    color: #6e00fa;
+    float: right;
+    margin-right: 123px;
+  }
+}

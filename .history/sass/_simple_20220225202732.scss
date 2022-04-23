@@ -1,0 +1,12 @@
+.simple {
+  background-color: #070d18;
+
+  &-heading {
+    max-width: 733px;
+    font-size: 42px;
+    line-height: calc(74 / 42);
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 50px;
+  }
+}

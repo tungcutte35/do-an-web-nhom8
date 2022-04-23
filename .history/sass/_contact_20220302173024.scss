@@ -1,0 +1,111 @@
+.contact {
+  margin-top: 40px;
+  &-container {
+    max-width: 1218px;
+    margin: 0 auto;
+    position: relative;
+  }
+  &-header {
+    font-size: 32px;
+    line-height: calc(48 / 32);
+    font-weight: 600;
+    color: #000;
+    span {
+      color: #42bdec;
+    }
+  }
+  &-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0 160px;
+  }
+  &-box-first {
+    max-width: 534px;
+  }
+  &-heading {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: calc(24 / 16);
+    color: #000000;
+    margin-bottom: 13px;
+    &:first-child {
+      margin-top: 57px;
+    }
+  }
+  &-input {
+    margin-bottom: 38px;
+    color: #b4b4b4;
+
+    max-width: 407px;
+    input {
+      padding: 15px 290px 14px 20px;
+    }
+  }
+  &-input-message {
+    margin-bottom: 76px;
+    color: #b4b4b4;
+    input {
+      padding: 15px 290px 158px 20px;
+    }
+  }
+  &-icon {
+    margin-left: 11px;
+  }
+  &-header-img {
+    display: flex;
+    align-items: center;
+    gap: 0 5px;
+  }
+  &-background {
+    position: absolute;
+    top: -100px;
+    right: -43px;
+    z-index: -1;
+  }
+  &-box-second-header {
+    margin-top: -10px;
+  }
+  &-desc {
+    font-size: 20px;
+    line-height: calc(34 / 20);
+    margin-bottom: 125px;
+    margin-top: 10px;
+    max-width: 396px;
+    margin-right: 230px;
+  }
+  &-box-second-1 {
+    margin-top: 400px;
+  }
+  &-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    &::after {
+      position: absolute;
+      content: "";
+      width: 721px;
+      height: 2px;
+      left: -102px;
+      top: -45px;
+      background-color: #fff;
+    }
+
+    &::before {
+      position: absolute;
+      content: "";
+      width: 2px;
+      height: 160px;
+      left: 172px;
+      top: -68px;
+      background-color: #fff;
+    }
+  }
+  &-phone {
+    max-width: 338px;
+  }
+  &-email {
+    position: relative;
+  }
+}

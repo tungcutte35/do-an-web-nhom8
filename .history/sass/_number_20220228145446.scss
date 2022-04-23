@@ -1,0 +1,10 @@
+.number {
+  &-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  &-heading {
+    color: #000;
+  }
+}

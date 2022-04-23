@@ -1,0 +1,13 @@
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0 80px;
+  margin-bottom: 23px;
+  &-link {
+    color: inherit;
+  }
+  &-item {
+    font-size: 16px;
+  }
+}

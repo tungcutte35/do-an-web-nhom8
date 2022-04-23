@@ -1,0 +1,18 @@
+.header {
+  background-color: #070d18;
+  padding-top: 20px;
+  position: relative;
+  &:after {
+    position: absolute;
+    content: " ";
+    width: 1440.1px;
+    height: 63.5px;
+    left: -0.05px;
+    bottom: -70px;
+  }
+  &-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}

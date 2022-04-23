@@ -1,0 +1,12 @@
+.news-lorem {
+  &-container {
+    max-width: 1130px;
+    margin: 0 auto;
+  }
+  &-box-first {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0 60px;
+  }
+}

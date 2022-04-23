@@ -1,0 +1,14 @@
+.about-latest {
+  &-heading {
+    max-width: 733px;
+    font-size: 42px;
+    line-height: calc(74 / 42);
+    text-align: center;
+    color:#000
+    margin: 0 auto;
+    margin-bottom: 50px;
+    animation: revolveScale 3s forwards;
+    opacity: 0;
+    transform: translate(-150px, -50px) rotate(-180deg) scale(3);
+  }
+}

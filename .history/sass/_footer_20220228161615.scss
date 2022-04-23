@@ -1,0 +1,35 @@
+.footer {
+  background-color: #000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 75px 104px 74px 104px;
+  &-lorem2 {
+    display: flex;
+    gap: 0 8px;
+    cursor: pointer;
+    max-width: 196px;
+  }
+  &-lorem1 {
+    cursor: pointer;
+    max-width: 113px;
+  }
+  &-desc {
+    padding: 3px 30px;
+    background-color: #464646;
+    border-radius: 3px;
+    margin-top: 10px;
+    &:hover {
+      background-color: red;
+    }
+  }
+  &-desc1 {
+    padding: 3px 100px;
+    background-color: #464646;
+    border-radius: 3px;
+    margin-top: 10px;
+    &:hover {
+      background-color: red;
+    }
+  }
+}

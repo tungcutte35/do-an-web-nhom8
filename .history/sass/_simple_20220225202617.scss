@@ -1,0 +1,9 @@
+.simple {
+  &-container {
+  }
+  &-heading {
+    max-width: 733px;
+    font-size: 42px;
+    line-height: calc(74 / 42);
+  }
+}

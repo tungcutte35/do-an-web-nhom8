@@ -1,0 +1,90 @@
+.wedo {
+  margin-bottom: 150px;
+  img {
+    display: inline-block;
+  }
+  &-header {
+    color: #000;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 177.9%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  &-boxbig {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0 46px;
+    &:nth-child(2) {
+      margin-top: 90px;
+    }
+  }
+  &-box {
+    width: 283px;
+    &:hover {
+      transform: translateY(-10px);
+    }
+  }
+  &-boxone {
+    margin-top: 30px;
+  }
+  &-img1,
+  &-img2,
+  &-img3,
+  &-img4,
+  &-img5,
+  &-img6,
+  &-img7,
+  &-img8 {
+    margin: 0 auto;
+    text-align: center;
+    width: 101px;
+    height: 100px;
+    border-radius: 20px;
+
+    img {
+      padding: 25px;
+    }
+  }
+  &-img1 {
+    background-color: #fff2f2;
+  }
+  &-img2 {
+    background-color: #fdfbda;
+  }
+  &-img3 {
+    background-color: #e2f3ff;
+  }
+  &-img4 {
+    background-color: #ffe7fb;
+  }
+  &-img5 {
+    background-color: #f6eee7;
+  }
+  &-img6 {
+    background-color: #f1f1f1;
+  }
+  &-img7 {
+    background-color: #f1e8ff;
+    margin-top: 26px;
+  }
+  &-img8 {
+    background-color: #e2fff1;
+  }
+
+  &-heading {
+    color: #000;
+    text-align: center;
+    font-size: 25px;
+    line-height: calc(45 / 25);
+    margin-top: 39px;
+  }
+  &-desc {
+    color: #797979;
+    text-align: center;
+    font-size: 16px;
+    line-height: calc(28 / 16);
+    margin-top: 15px;
+  }
+}

@@ -1,0 +1,51 @@
+.number {
+  margin-bottom: 150px;
+  background-color: #000;
+  position: relative;
+
+  &-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0 160px;
+    padding: 129px 178px 135px;
+  }
+  &-heading {
+    font-size: 65px;
+    line-height: calc(115 / 65);
+    font-weight: 600;
+    text-align: center;
+  }
+  &-desc {
+    font-size: 16px;
+    line-height: calc(28 / 16);
+    font-weight: 400;
+    text-align: center;
+    width: 161px;
+  }
+  &-vector1 {
+    position: absolute;
+    top: -70px;
+    right: 100px;
+  }
+  &-vector2 {
+    position: absolute;
+    bottom: -50px;
+    left: 150px;
+  }
+  &-vector3 {
+    position: absolute;
+    bottom: 0px;
+    left: 100px;
+  }
+  &-vector4 {
+    position: absolute;
+    bottom: 0px;
+    left: 100px;
+  }
+  &-vector5 {
+    position: absolute;
+    bottom: 0px;
+    left: 100px;
+  }
+}
